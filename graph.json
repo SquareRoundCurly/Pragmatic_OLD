@@ -1,0 +1,34 @@
+{
+  "graphs": [
+    {
+      "directed": true,
+      "type": "",
+      "label": "",
+      "metadata": {},
+      "nodes": {
+        "A": {
+          "label": "node label(A)",
+          "metadata": {
+            "color": "red"
+          }
+        },
+        "B": {
+          "label": "node label(B)",
+          "metadata": {
+            "color": "blue"
+          }
+        }
+      },
+      "edges": [
+        {
+          "source": "A",
+          "relation": "command1",
+          "target": "B",
+          "directed": true,
+          "label": "edge label",
+          "metadata": {}
+        }
+      ]
+    }
+  ]
+}
